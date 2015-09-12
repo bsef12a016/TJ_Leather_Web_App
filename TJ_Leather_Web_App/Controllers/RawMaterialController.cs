@@ -13,5 +13,12 @@ namespace TJ_Leather_Web_App.Controllers
         {
             return View();
         }
+
+        public ActionResult AddRawMaterial()
+        {
+            return View();
+        }
+
+
     }
 }
