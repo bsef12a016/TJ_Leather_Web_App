@@ -113,6 +113,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\RawMaterialController.cs" />
+    <Compile Include="Controllers\RawMaterialInventoryController.cs" />
+    <Compile Include="Controllers\RawMaterialSupplierController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -8465,6 +8467,14 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\RawMaterial\AddRawMaterial.cshtml" />
+    <Content Include="Views\RawMaterialSupplier\AddSupplier.cshtml" />
+    <Content Include="Views\RawMaterialSupplier\UpdateSupplier.cshtml" />
+    <Content Include="Views\RawMaterialSupplier\SupplierDetails.cshtml" />
+    <Content Include="Views\RawMaterial\RawMaterialDetails.cshtml" />
+    <Content Include="Views\RawMaterial\UpdateRawMaterial.cshtml" />
+    <Content Include="Views\RawMaterialInventory\AddRawMaterialInventory.cshtml" />
+    <Content Include="Views\RawMaterialInventory\RawMaterialInventoryDetails.cshtml" />
+    <Content Include="Views\RawMaterialInventory\UpdateRawMaterialInventory.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

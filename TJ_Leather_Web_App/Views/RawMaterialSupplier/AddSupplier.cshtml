@@ -1,0 +1,76 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!-- BEGIN PAGE CONTENT -->
+<div class="page-content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default no-bd">
+                <div class="panel-header bg-dark">
+                    <h2 class="panel-title"><strong>Add</strong> Raw Material Supplier</h2>
+                </div>
+                <div class="panel-body bg-white">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <form role="form" class="form-validation">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Supplier ID</label>
+                                            <div class="append-icon">
+                                                <input type="text" name="firstname" class="form-control" minlength="3" placeholder="Minimum 3 characters..." required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Name</label>
+                                            <div class="append-icon">
+                                                <input type="text" name="lastname" class="form-control" minlength="4" placeholder="Enter your name..." required>
+                                                <i class="icon-user"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Address</label>
+                                            <div class="append-icon">
+                                                <input type="email" name="email" class="form-control" placeholder="Enter your address..." required>
+                                                <i class="icon-envelope"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Mobile Number</label>
+                                            <div class="append-icon">
+                                                <input type="text" name="mobile" class="form-control" placeholder="Mobile Number..." minlength="3" required>
+                                                <i class="icon-screen-smartphone"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Phone Number</label>
+                                            <div class="append-icon">
+                                                <input type="password" name="password" id="password" class="form-control" placeholder="Phone Number..." minlength="4" maxlength="16" required>
+                                                <i class="icon-screen-smartphone"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center  m-t-20">
+                                    <button type="submit" class="btn btn-embossed btn-primary">Add</button>
+                                    <button type="reset" class="cancel btn btn-embossed btn-default m-b-10 m-r-0">Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END PAGE CONTENT -->

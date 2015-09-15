@@ -6,26 +6,25 @@ using System.Web.Mvc;
 
 namespace TJ_Leather_Web_App.Controllers
 {
-    public class RawMaterialController : Controller
+    public class RawMaterialSupplierController : Controller
     {
-        // GET: RawMaterial
+        // GET: RawMaterialSupplier
         public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult AddRawMaterial()
+        public ActionResult AddSupplier()
         {
             return View();
         }
-        public ActionResult RawMaterialDetails()
+        public ActionResult UpdateSupplier()
         {
             return View();
         }
-        public ActionResult UpdateRawMaterial()
+        public ActionResult SupplierDetails()
         {
             return View();
         }
-
     }
 }
